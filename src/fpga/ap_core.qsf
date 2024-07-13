@@ -42,7 +42,7 @@
 # ========================
 set_global_assignment -name ORIGINAL_QUARTUS_VERSION 18.1.1
 set_global_assignment -name PROJECT_CREATION_TIME_DATE "21:31:36  JANUARY 22, 2020"
-set_global_assignment -name LAST_QUARTUS_VERSION "23.1std.0 Lite Edition"
+set_global_assignment -name LAST_QUARTUS_VERSION "18.1.0 Standard Edition"
 set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
 set_global_assignment -name PRE_FLOW_SCRIPT_FILE "quartus_sh:apf/build_id_gen.tcl"
 set_global_assignment -name SMART_RECOMPILE ON
@@ -808,6 +808,10 @@ set_instance_assignment -name FAST_INPUT_REGISTER ON -to dram_dq[15]
 set_instance_assignment -name ALLOW_SYNCH_CTRL_USAGE OFF -to *|dram_*
 
 set_global_assignment -name SEED 69420
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name QIP_FILE analogizer/analogizer.qip
 set_global_assignment -name SYSTEMVERILOG_FILE "../../external/sdram-controller/sdram.sv"
 set_global_assignment -name VHDL_FILE "../../external/Arcade-Atari-system1_MiSTer/rtl/lib/mem/dpram.vhd"
 set_global_assignment -name VHDL_FILE "../../external/Arcade-Atari-system1_MiSTer/rtl/lib/T65/T65_Pack.vhd"
@@ -888,8 +892,5 @@ set_global_assignment -name QIP_FILE core/mf_pllbridge/mf_pllbridge.qip
 set_global_assignment -name SIP_FILE core/mf_pllbridge/mf_pllbridge.sip
 set_global_assignment -name QIP_FILE core/mf_pllsdram/mf_pllsdram.qip
 set_global_assignment -name SIP_FILE core/mf_pllsdram/mf_pllsdram.sip
-set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
-set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
-set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
-set_global_assignment -name SLD_FILE db/stp1_auto_stripped.stp
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
+set_global_assignment -name SLD_FILE db/stp1_auto_stripped.stp

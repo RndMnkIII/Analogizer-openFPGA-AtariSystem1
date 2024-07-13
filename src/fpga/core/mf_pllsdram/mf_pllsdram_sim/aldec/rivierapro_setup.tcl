@@ -12,7 +12,7 @@
 # or its authorized distributors. Please refer to the applicable 
 # agreement for further details.
 
-# ACDS 23.1 991 win32 2024.07.05.19:16:15
+# ACDS 18.1 991 win32 2024.07.05.19:16:15
 # ----------------------------------------
 # Auto-generated simulation script rivierapro_setup.tcl
 # ----------------------------------------
@@ -113,7 +113,7 @@ if ![info exists QSYS_SIMDIR] {
 }
 
 if ![info exists QUARTUS_INSTALL_DIR] { 
-  set QUARTUS_INSTALL_DIR "C:/intelfpga_lite/23.1std/quartus/"
+  set QUARTUS_INSTALL_DIR "C:/intelfpga_lite/18.1std/quartus/"
 }
 
 if ![info exists USER_DEFINED_COMPILE_OPTIONS] { 

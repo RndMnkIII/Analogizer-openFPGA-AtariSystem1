@@ -1,5 +1,5 @@
 set_global_assignment -entity "mf_pllbridge" -library "mf_pllbridge" -name IP_TOOL_NAME "altera_pll"
-set_global_assignment -entity "mf_pllbridge" -library "mf_pllbridge" -name IP_TOOL_VERSION "23.1"
+set_global_assignment -entity "mf_pllbridge" -library "mf_pllbridge" -name IP_TOOL_VERSION "18.1"
 set_global_assignment -entity "mf_pllbridge" -library "mf_pllbridge" -name IP_TOOL_ENV "mwpim"
 set_global_assignment -library "mf_pllbridge" -name MISC_FILE [file join $::quartus(qip_path) "mf_pllbridge.cmp"]
 set_global_assignment -entity "mf_pllbridge" -library "mf_pllbridge" -name IP_TARGETED_DEVICE_FAMILY "Cyclone V"
@@ -333,5 +333,5 @@ set_global_assignment -library "mf_pllbridge" -name VERILOG_FILE [file join $::q
 set_global_assignment -library "mf_pllbridge" -name QIP_FILE [file join $::quartus(qip_path) "mf_pllbridge/mf_pllbridge_0002.qip"]
 
 set_global_assignment -entity "mf_pllbridge_0002" -library "mf_pllbridge" -name IP_TOOL_NAME "altera_pll"
-set_global_assignment -entity "mf_pllbridge_0002" -library "mf_pllbridge" -name IP_TOOL_VERSION "23.1"
+set_global_assignment -entity "mf_pllbridge_0002" -library "mf_pllbridge" -name IP_TOOL_VERSION "18.1"
 set_global_assignment -entity "mf_pllbridge_0002" -library "mf_pllbridge" -name IP_TOOL_ENV "mwpim"
