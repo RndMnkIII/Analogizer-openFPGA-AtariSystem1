@@ -1,5 +1,7 @@
 # Pocket openFPGA Atari System 1 Core with support for Analogizer-FPGA adapter
 * Analogizer V1.0.0 [13/07/2024]: Added initial support for Analogizer adapter (RGBS, RGsB, YPbPr, Y/C, SVGA Scandoubler) and SNAC.
+* Analogizer V1.0.1 [19/07/2024]: Fixed SNAC PCEngine Multitap 4 Player not working, fixed support for the JAMMA TO SNAC DB15 adapter.
+
 Adapted to Analogizer by [@RndMnkIII](https://github.com/RndMnkIII) based on **obsidian-dot-dev** openFPGA Atari System 1 Core:
 https://github.com/obsidian-dot-dev/openFPGA-AtariSystem1
 
