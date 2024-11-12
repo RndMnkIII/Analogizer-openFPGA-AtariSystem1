@@ -7,8 +7,8 @@
             "description": "[Analogizer] Atari System 1",
             "author": "obsidian",
             "url": "https://github.com/RndMnkIII/Analogizer-openFPGA-AtariSystem1",
-            "version": "1.0.1",
-            "date_release": "2024-07-19"
+            "version": "1.0.2",
+            "date_release": "2024-11-12"
         },
         "framework": {
             "target_product": "Analogue Pocket",
